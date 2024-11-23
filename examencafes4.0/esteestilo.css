@@ -1,0 +1,89 @@
+
+
+body{
+   
+    background: rgb(233,221,173);
+    
+}
+.fencabezado{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 2em;
+ }
+ h2{
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    color: rgb(1,43,39);
+ }
+ #juego{
+    max-width: 800px;
+    margin: auto;
+ }
+ .contenedor-pregunta{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(1,43,39);
+    margin-bottom: 20px;
+    background: #fff;
+ }
+
+ label{
+    display: flex;
+    font-size: 22px;
+    margin-bottom: 10px;
+    cursor: pointer;
+ }
+input{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.correcta{
+    background-color: #a8f6eb;
+}
+.incorrecta{
+    background-color: #ff6666;
+}
+.acierto{
+    font-size: 20px;
+    background-color: yellowgreen;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    margin-left: 15px;
+}
+.no-acierto{
+    font-size: 20px;
+    background-color: darkred;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    margin-left: 15px;
+}
+#corregir{
+    width: fit-content;
+    display: block;
+    margin: auto;
+    border: none;
+    background: #000;
+    color: #fff;
+    padding: 20px 60px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.resultado{
+    text-align: center;
+}
